@@ -37,12 +37,12 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def definicion_orm_joaco():
     """
-    EJEMPLO: El alumno debe renombrar esta función y completar su término.
+    Definicion de ORM agregada para el TP0
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "ORM"  
+    definicion = "Object-Relational Mapping. Es una técnica que permite interactuar con bases de datos relacionales usando objetos de Python (como clases), sin escribir SQL manualmente."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
@@ -50,5 +50,4 @@ if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
 
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
+    definicion_orm_joaco()  # Llamada a la función que agrega un nuevo término al glosario  
